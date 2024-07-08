@@ -629,4 +629,4 @@ export default function Index(props: Props) {
   );
 }
 
-interface Props { }
+interface Props {}
