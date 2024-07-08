@@ -182,7 +182,7 @@ export default function Index(props: OsModalProps) {
                   openType={confirmOpenType}
                   type='primary'
                   shape='round'
-                  size={confirmText ? 'normal' : 'block'}
+                  size={cancelText ? 'normal' : 'block'}
                   disabled={props.disableConfirmBtn}
                   {...openTypeRelatedProps}
                   onClick={(e) => onClickConfirmBtn(props)}
