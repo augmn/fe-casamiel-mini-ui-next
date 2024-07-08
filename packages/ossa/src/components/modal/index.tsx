@@ -108,11 +108,10 @@ export default function Index(props: OsModalProps) {
                   <Button
                     className={classNames({
                       ["ossa-action-btn"]: true,
-                      ["ossa-action-btn--cancel"]: !!confirmText,
+                      ["ossa-action-btn--cancel"]: true,
                     })}
                     shape='round'
                     size={confirmText ? 'normal' : 'block'}
-                    type={confirmText ? 'default' : 'primary'}
                     disabled={props.disableConfirmBtn}
                     onClick={(e) => onClickCancelBtn(props)}
                   >
@@ -123,11 +122,12 @@ export default function Index(props: OsModalProps) {
                   <Button
                     className={classNames({
                       ["ossa-action-btn"]: true,
-                      ["ossa-action-btn--confirm"]: !!confirmText,
+                      ["ossa-action-btn--confirm"]: true,
                     })}
                     openType={confirmOpenType}
                     type='primary'
                     shape='round'
+                    size={cancelText ? 'normal' : 'block'}
                     disabled={props.disableConfirmBtn}
                     {...openTypeRelatedProps}
                     onClick={(e) => onClickConfirmBtn(props)}
@@ -167,7 +167,6 @@ export default function Index(props: OsModalProps) {
                   })}
                   shape='round'
                   size={confirmText ? 'normal' : 'block'}
-                  type={confirmText ? 'default' : 'primary'}
                   disabled={props.disableCancelBtn}
                   onClick={(e) => onClickCancelBtn(props)}
                 >
@@ -179,11 +178,12 @@ export default function Index(props: OsModalProps) {
                   className={classNames({
                     ["ossa-action-btn"]: true,
                     ["ossa-action-btn--confirm"]: true,
-                    ["ossa-action-btn--disabled"]: props.disableConfirmBtn,
                   })}
                   openType={confirmOpenType}
                   type='primary'
                   shape='round'
+                  size={confirmText ? 'normal' : 'block'}
+                  disabled={props.disableConfirmBtn}
                   {...openTypeRelatedProps}
                   onClick={(e) => onClickConfirmBtn(props)}
                 >
