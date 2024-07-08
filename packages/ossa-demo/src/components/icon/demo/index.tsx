@@ -7,7 +7,7 @@ import DemoHeader from "../../demoHeader";
 import DemoTable from "../../demoTable";
 import { OsIcon } from "ossaui";
 
-import "ossaui/dist/style/components/icon.scss";
+import "ossaui/src/style/components/icon.scss";
 import "./index.scss";
 
 function getClassObject() {
