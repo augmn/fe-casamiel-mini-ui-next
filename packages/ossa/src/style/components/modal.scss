@@ -70,11 +70,10 @@ $modal-duration: 200ms;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    gap: 26px;
 
     & > .ossa-action-btn {
       @include line(1);
-      margin-left: 24px;
       border: none;
       font-size: 28px;
       text-align: center;
@@ -109,7 +108,6 @@ $modal-duration: 200ms;
 
       &.ossa-action-btn--confirm {
         color: $--fill-bar;
-        margin-left: 26px;
       }
 
       &.ossa-action-btn--disabled {
