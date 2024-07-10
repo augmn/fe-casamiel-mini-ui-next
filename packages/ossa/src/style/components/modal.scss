@@ -94,20 +94,12 @@ $modal-duration: 200ms;
         border-radius: 0;
       }
 
-      &:active {
-        background-color: $--fill-model-btns-active;
-      }
-
       &.ossa-action-btn--cancel {
         color: $--text-color-base;
         background: $--fill-body;
         &::after {
           border: none;
         }
-      }
-
-      &.ossa-action-btn--confirm {
-        color: $--fill-bar;
       }
 
       &.ossa-action-btn--disabled {
