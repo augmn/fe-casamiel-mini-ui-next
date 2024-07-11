@@ -1,5 +1,5 @@
 {
-  "name": "ossaui",
+  "name": "@casamiel/ossaui",
   "version": "0.7.4-beta.2",
   "description": "",
   "main": "dist/index.js",
