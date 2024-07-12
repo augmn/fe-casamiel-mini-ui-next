@@ -16,9 +16,9 @@ module.exports = {
       {
         libraryName: "ossaui",
         customName: (name) =>
-          `ossaui/src/components/${name.replace(/^os-/, "")}`,
+          `ossaui/lib/components/${name.replace(/^os-/, "")}`,
         customStyleName: (name) =>
-          `ossaui/src/style/components/${name.replace(/^os-/, "")}.scss`,
+          `ossaui/dist/style/components/${name.replace(/^os-/, "")}.scss`,
       },
       "ossaui",
     ],
