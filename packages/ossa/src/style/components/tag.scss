@@ -3,11 +3,11 @@
 .ossa-tag {
   color: $--color-red;
   background-color: $--fill-tag-default;
-  font-size: 20px;
+  font-size: 18px;
   height: 32px;
   line-height: 1;
   text-align: center;
-  padding: 7px 10px;
+  padding: 6px 10px;
   border-radius: 4px;
   display: inline-flex;
   justify-content: center;
@@ -46,7 +46,6 @@
 
   &--type-radius {
     position: relative;
-    padding: 12px 24px;
     border-radius: 32px;
 
     .ossa-border {
@@ -77,8 +76,6 @@
   &--type-primary {
     background-color: $--fill-tag-primary;
     color: $--text-color-base-inverse;
-    padding: 6px 10px;
-    font-size: 18px;
     .ossa-tag__title {
       transform: scale(1);
       display: inline-block;
