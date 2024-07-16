@@ -46,7 +46,6 @@
 
   &--type-radius {
     position: relative;
-    padding: 12px 24px;
     border-radius: 32px;
 
     .ossa-border {
@@ -57,7 +56,7 @@
       height: 200%;
       transform: scale(0.5);
       border: 1px solid $--border-color-tag-default;
-      border-radius: 30px;
+      border-radius: 12px;
       transform-origin: 0 0;
     }
 
@@ -101,5 +100,17 @@
       color: $--text-color-base-inverse;
       opacity: 0.8;
     }
+  }
+
+  &--size-middle {
+    padding: 12px 24px;
+    font-size: 24px;
+    height: 58px;
+  }
+  
+  &--size-large {
+    padding: 16px 48px;
+    font-size: 24px;
+    height: 66px;
   }
 }
