@@ -55,10 +55,12 @@ $modal-duration: 200ms;
     padding-top: 40px;
     padding-left: 32px;
     padding-right: 32px;
+    padding-bottom: 32px;
   }
 
   &__content {
     padding: 32px;
+    padding-top: 0;
     color: $--text-color-secondary;
     font-size: 28px;
     font-weight: $--font-weight-default;
