@@ -37,7 +37,7 @@ $modal-duration: 200ms;
     margin-bottom: 8px;
 
     &-inner {
-      border-radius: 8px;
+      border-radius: 16px;
       overflow: hidden;
       background: $--fill-default;
     }
@@ -81,14 +81,18 @@ $modal-duration: 200ms;
       text-align: center;
       box-sizing: border-box;
       flex: 1;
+      height: 88px;
       margin-top: 0 !important;
-      border-radius: 0;
       -webkit-appearance: none;
       outline: none;
 
-      &::after {
-        border: 0;
+      &.ossa-button--circle {
+        border-radius: 44px;
       }
+  
+        &::after {
+          border-radius: 88px;
+        }
 
       &.taro-button-core::after {
         width: auto;
@@ -97,8 +101,8 @@ $modal-duration: 200ms;
       }
 
       &.ossa-action-btn--cancel {
-        color: $--text-color-base;
-        background: $--fill-body;
+        color: $--color-primay;
+        border: 1px solid $--color-primay;
         &::after {
           border: none;
         }
