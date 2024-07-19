@@ -58,7 +58,7 @@ function getStyleObj(props: OsButtonProps): CSSProperties {
   }
 
   if (bdColor) {
-    _styleObj["border-color"] = bdColor;
+    _styleObj["borderColor"] = bdColor;
   }
 
   if (bgColor) {
