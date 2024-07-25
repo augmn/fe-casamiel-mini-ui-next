@@ -39,7 +39,7 @@
     @include button-variant(
       $--font-color-default, $--fill-color-button-default, $--border-color-default
     );
-    border-color: #8F959E;
+    border-color: $--text-color-placeholder;
 
     &.ossa-button--is-active::before {
       content: '';
