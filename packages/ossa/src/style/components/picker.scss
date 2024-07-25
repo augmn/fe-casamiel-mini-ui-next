@@ -68,7 +68,7 @@ $animation-duration: 200ms;
   }
 
   &__btn {
-    color: #8F959E;
+    color: $--text-color-placeholder;
     font-weight: $--font-weight-default;
     font-size: 28px;
     flex: 1;
