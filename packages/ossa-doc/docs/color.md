@@ -19,15 +19,15 @@ $--color-line:#F2F2F2 !default;             // 分割线
 
 
 /* Text Color */
-$--text-color-base:#333 !default;         // 主要文字颜色
+$--text-color-base:#1E2328 !default;         // 主要文字颜色
 $--text-color-base-inverse:#fff !default; // 文字反色
-$--text-color-secondary:#7F7F7F !default;    // 次要文字颜色
-$--text-color-placeholder:#999 !default;  // 弱文字颜色
-$--text-color-disabled:#ccc !default;     // 不可用文字颜色
+$--text-color-secondary:#76797E !default;    // 次要文字颜色
+$--text-color-placeholder:#8F959E !default;  // 弱文字颜色
+$--text-color-disabled:#BEC1C5 !default;     // 不可用文字颜色
 
 
 /* background-color */
-$--fill-body:#F4F4F4 !default;               // 通用背景色
+$--fill-body:#F6F6F6 !default;               // 通用背景色
 $--fill-bar:#FAFAFA !default;                // bar背景
 $--fill-mask:rgba(0, 0, 0, 0.5) !default;    // 遮罩背景
 $--fill-gray:#7f7f7f !default;               // 许多小图标的背景，比如一些小圆点，加减号
