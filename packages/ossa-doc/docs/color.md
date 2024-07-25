@@ -13,9 +13,9 @@ $--color-primay: #AF7357 !default;           // 主题色
 /* Color */
 $--color-red:#DD1A21 !default;              // 品牌红
 $--color-yellow:#F48F18 !default;           // 营销色
-$--color-green:#2BAB52 !default;            // 成功状态色
+$--color-green:#73B960 !default;            // 成功状态色
 $--color-golden:#C3945B !default;           // 品牌金
-$--color-line:#d9d9d9 !default;
+$--color-line:#F2F2F2 !default;             // 分割线
 
 
 /* Text Color */
