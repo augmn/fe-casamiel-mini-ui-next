@@ -111,7 +111,7 @@ export default function Index(props: OsModalProps) {
                       ["ossa-action-btn--cancel"]: true,
                     })}
                     shape='round'
-                    size={confirmText ? 'normal' : 'block'}
+                    size={confirmText ? 'large' : 'block'}
                     disabled={props.disableConfirmBtn}
                     onClick={(e) => onClickCancelBtn(props)}
                   >
@@ -127,7 +127,7 @@ export default function Index(props: OsModalProps) {
                     openType={confirmOpenType}
                     type='primary'
                     shape='round'
-                    size={cancelText ? 'normal' : 'block'}
+                    size={cancelText ? 'large' : 'block'}
                     disabled={props.disableConfirmBtn}
                     {...openTypeRelatedProps}
                     onClick={(e) => onClickConfirmBtn(props)}
@@ -166,7 +166,7 @@ export default function Index(props: OsModalProps) {
                     ["ossa-action-btn--cancel"]: true,
                   })}
                   shape='round'
-                  size={confirmText ? 'normal' : 'block'}
+                  size={confirmText ? 'large' : 'block'}
                   disabled={props.disableCancelBtn}
                   onClick={(e) => onClickCancelBtn(props)}
                 >
@@ -182,7 +182,7 @@ export default function Index(props: OsModalProps) {
                   openType={confirmOpenType}
                   type='primary'
                   shape='round'
-                  size={cancelText ? 'normal' : 'block'}
+                  size={cancelText ? 'large' : 'block'}
                   disabled={props.disableConfirmBtn}
                   {...openTypeRelatedProps}
                   onClick={(e) => onClickConfirmBtn(props)}
