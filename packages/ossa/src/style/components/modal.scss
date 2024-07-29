@@ -120,11 +120,11 @@ $modal-duration: 200ms;
       }
     }
 
-    & > button.ossa-action-btn::after {
+    & >.ossa-action-btn::after {
       width: auto;
       height: auto;
       border-radius: 0;
-    }
+    } 
   }
 
   &--show {
