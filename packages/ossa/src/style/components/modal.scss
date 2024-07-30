@@ -129,7 +129,10 @@ $modal-duration: 200ms;
   &--show {
     visibility: visible;
 
-    .ossa-modal__mask,
+    .ossa-modal__mask{
+      opacity: 0.6;
+    }
+
     .ossa-modal__container {
       opacity: 1;
     }
