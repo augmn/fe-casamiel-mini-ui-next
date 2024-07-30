@@ -88,6 +88,7 @@ $modal-duration: 200ms;
 
       &.ossa-button--circle {
         border-radius: 44px;
+        border-width: 1Px;
       }
   
         &::after {
@@ -103,6 +104,7 @@ $modal-duration: 200ms;
       &.ossa-action-btn--cancel {
         color: $--color-primay;
         border-color: $--color-primay;
+        border-width: 1Px;
         position: relative;
         &::after {
           border-color:  $--color-primay;
@@ -110,13 +112,11 @@ $modal-duration: 200ms;
         }
       }
 
+      
+
       &.ossa-action-btn--disabled {
         color: $--text-color-disabled;
         pointer-events: none;
-      }
-
-      &:not(:first-child) {
-        @include hairline-left();
       }
     }
 
