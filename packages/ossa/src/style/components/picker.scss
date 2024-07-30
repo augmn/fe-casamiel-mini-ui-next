@@ -23,6 +23,8 @@ $animation-duration: 200ms;
 
     .ossa-picker-popup__container {
       transform: translate(-50%, 0%);
+      border-top-left-radius: 32px;
+      border-top-right-radius: 32px;
     }
   }
 
@@ -43,12 +45,15 @@ $animation-duration: 200ms;
   }
 
   &__header {
-    height: 90px;
+    height: 110px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 30px;
-    background: $--fill-picker;
+    padding: 32px;
+    background: #fff;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
   }
 
   &__title {
@@ -58,19 +63,20 @@ $animation-duration: 200ms;
     white-space: nowrap;
     text-align: center;
     font-size: $--font-size-8;
-    font-weight: $--font-weight-default;
+    font-weight: $--font-weight-bold;
     color: $--text-color-base;
   }
 
   &__btn {
-    color: $--text-color-base;
-    font-size: $--font-size-5;
+    color: $--text-color-placeholder;
     font-weight: $--font-weight-default;
+    font-size: 28px;
     flex: 1;
   }
 
   &__btn-confirm {
     text-align: right;
+    color: $--color-primay;
   }
 
   &__body {

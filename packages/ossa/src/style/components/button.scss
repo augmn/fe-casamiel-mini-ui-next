@@ -39,6 +39,7 @@
     @include button-variant(
       $--font-color-default, $--fill-color-button-default, $--border-color-default
     );
+    border-color: $--text-color-placeholder;
 
     &.ossa-button--is-active::before {
       content: '';
@@ -151,16 +152,15 @@
   }
 
   &--small {
-    @include button-size(0 20px,48px,auto);
-
+    @include button-size(12px 32px,58px,auto);
     min-width: 112px;
     max-width: 272px;
-
+    
     &.ossa-button--circle {
-      border-radius: 24px;
+      border-radius: 29px;
 
       &::after {
-        border-radius: 48px;
+        border-radius: 58px;
       }
     }
 
@@ -170,16 +170,16 @@
   }
 
   &--normal {
-    @include button-size(0 28px,64px,auto);
+    @include button-size(20px 50px,78px,auto);
 
     min-width: 148px;
     max-width: 288px;
 
     &.ossa-button--circle {
-      border-radius: 32px;
+      border-radius: 39px;
 
       &::after {
-        border-radius: 64px;
+        border-radius: 78px;
       }
     }
 
@@ -189,36 +189,41 @@
   }
 
   &--large {
-    @include button-size(0,80px,510px);
+    @include button-size(24px 0,88px,686px);
 
     display: flex;
     // width: 510px;
 
     &.ossa-button--circle {
-      border-radius: 40px;
+      border-radius: 44px;
 
       &::after {
-        border-radius: 80px;
+        border-radius: 88px;
       }
     }
 
     .ossa-button__text {
       font-size: 28px;
+      font-weight: 600;
     }
   }
 
   &--block {
-    @include button-size(0,96px,100%);
+    @include button-size(20px 0,88px,100%);
 
     display: flex;
     margin: 0;
 
     &.ossa-button--circle {
-      border-radius: 48px;
+      border-radius: 44px;
 
       &::after {
-        border-radius: 96px;
+        border-radius: 88px;
       }
+    }
+    .ossa-button__text {
+      font-size: 28px;
+      font-weight: 500;
     }
   }
 }
