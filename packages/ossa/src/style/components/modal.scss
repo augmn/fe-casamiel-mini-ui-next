@@ -102,7 +102,7 @@ $modal-duration: 200ms;
 
       &.ossa-action-btn--cancel {
         color: $--color-primay;
-        border: 1px solid $--color-primay;
+        border: 1Px solid $--color-primay;
         &::after {
           border: none;
         }
@@ -119,6 +119,7 @@ $modal-duration: 200ms;
     }
 
     & > button.ossa-action-btn::after {
+      border: 1Px;
       width: auto;
       height: auto;
       border-radius: 0;
