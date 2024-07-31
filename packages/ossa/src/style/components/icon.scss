@@ -46,7 +46,7 @@
   &.ossa-icon--add-disable::before {
     content: "\e905";
     color: $--fill-icon-disabled;
-    font-weight: 600;
+    font-weight: $--font-weight-bold;
   }
 
   &.ossa-icon--add-photo::before {
@@ -55,7 +55,7 @@
 
   &.ossa-icon--add::before {
     content: "\e907";
-    color: #fff;
+    color: $--text-color-base-inverse;
     font-weight: 600;
   }
 

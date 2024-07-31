@@ -17,7 +17,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 3px solid #AF7357;
+    border: 3px solid $--color-golden;
 
     &::after {
       border-right-width: 0;
@@ -74,7 +74,6 @@
   &__content {
     display: inline-block;
     @include stepper-variant(58px,52px,24px,1PX);
-    // @include hairline-surround($--color-border-base-1);
 
     &::after {
       border-radius: 0;
