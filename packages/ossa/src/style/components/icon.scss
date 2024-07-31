@@ -460,8 +460,8 @@
 
   &.ossa-icon--subtract::before {
     content: "\e954";
-    color: #AF7357;
-    font-weight: 600;
+    color: $--color-golden;
+    font-weight: $--font-weight-bold;
   }
 
   &.ossa-icon--upload-delete .path1::before {
