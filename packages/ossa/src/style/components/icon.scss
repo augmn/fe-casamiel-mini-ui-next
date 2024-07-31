@@ -56,7 +56,7 @@
   &.ossa-icon--add::before {
     content: "\e907";
     color: $--text-color-base-inverse;
-    font-weight: 600;
+    font-weight: $--font-weight-bold;
   }
 
   &.ossa-icon--arrows-disable::before {
