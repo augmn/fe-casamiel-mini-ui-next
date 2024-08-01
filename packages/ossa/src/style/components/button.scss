@@ -184,7 +184,7 @@
     }
 
     .ossa-button__text {
-      font-size: $--font-size-5;
+      font-size:  $--font-size-5;
     }
   }
 
@@ -203,8 +203,8 @@
     }
 
     .ossa-button__text {
-      font-size: $--font-size-5;
-      font-weight: 600;
+      font-size:  $--font-size-5;
+      font-weight: $--font-weight-bold;
     }
   }
 
@@ -223,7 +223,7 @@
     }
     .ossa-button__text {
       font-size: $--font-size-5;
-      font-weight: 500;
+      font-weight: $--font-weight-bold;
     }
   }
 }
