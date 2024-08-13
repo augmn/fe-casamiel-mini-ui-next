@@ -62,7 +62,7 @@ $modal-duration: 200ms;
     padding: 32px;
     padding-top: 0;
     color: $--text-color-secondary;
-    font-size: 28px;
+    font-size: $--font-size-5;
     font-weight: $--font-weight-default;
   }
 
@@ -77,7 +77,7 @@ $modal-duration: 200ms;
     & > .ossa-action-btn {
       @include line(1);
       border: none;
-      font-size: 28px;
+      font-size: $--font-size-5;
       text-align: center;
       box-sizing: border-box;
       flex: 1;
