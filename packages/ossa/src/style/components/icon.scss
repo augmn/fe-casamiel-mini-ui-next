@@ -46,6 +46,7 @@
   &.ossa-icon--add-disable::before {
     content: "\e905";
     color: $--fill-icon-disabled;
+    font-weight: $--font-weight-bold;
   }
 
   &.ossa-icon--add-photo::before {
@@ -54,6 +55,8 @@
 
   &.ossa-icon--add::before {
     content: "\e907";
+    color: $--text-color-base-inverse;
+    font-weight: $--font-weight-bold;
   }
 
   &.ossa-icon--arrows-disable::before {
@@ -457,6 +460,8 @@
 
   &.ossa-icon--subtract::before {
     content: "\e954";
+    color: $--color-golden;
+    font-weight: $--font-weight-bold;
   }
 
   &.ossa-icon--upload-delete .path1::before {

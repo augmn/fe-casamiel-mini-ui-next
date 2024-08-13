@@ -14,8 +14,10 @@
   }
 
   &__minus {
-    border-radius: 4px 0 0 4px;
-    @include hairline-surround($--color-border-base-1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid $--color-golden;
 
     &::after {
       border-right-width: 0;
@@ -40,9 +42,10 @@
   }
 
   &__plus {
-    border-radius: 0 4px 4px 0;
-    //border-left: none;
-    @include hairline-surround($--color-border-base-1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $--color-golden;
 
     &::after {
       border-left: none;
@@ -71,7 +74,6 @@
   &__content {
     display: inline-block;
     @include stepper-variant(58px,52px,24px,1PX);
-    @include hairline-surround($--color-border-base-1);
 
     &::after {
       border-radius: 0;
