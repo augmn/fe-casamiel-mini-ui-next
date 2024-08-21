@@ -83,7 +83,7 @@ export default function Index(props: OsModalProps) {
   );
   if (props.title || props.content) {
     return (
-      <View className={className} style={styleObject}>
+      <View catchMove className={className} style={styleObject}>
         {_isAbsoluteCloseIcon && _closeIcon}
         <View
           onClick={(e) => onClickMask(props)}
@@ -144,7 +144,7 @@ export default function Index(props: OsModalProps) {
   }
 
   return (
-    <View className={className} style={styleObject}>
+    <View catchMove className={className} style={styleObject}>
       <View className='ossa-modal__mask' onClick={(e) => onClickMask(props)} />
       {_isAbsoluteCloseIcon && _closeIcon}
       {custom && (
